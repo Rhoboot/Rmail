@@ -1,0 +1,15 @@
+Package: Rmail
+Type: Package
+Title: Paquete para enviar correos desde R
+Description: API para envir email usando Apache Commons Email.
+Version: 0.01
+Date: 2017-06-29
+Author: Roberto Parra
+Maintainer: Roberto Parra <roberto.parra05@gmail.com>
+License: GPL-3
+Imports:
+    rJava,
+    stringr,
+    R.utils
+SystemRequirements: Java
+URL: https://github.com/rhoboot/Rmail
