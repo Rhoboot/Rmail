@@ -5,17 +5,17 @@ Resumen
 ========
   Rmail permite a los usuarios enviar correos desde R.
 
-It is developed as a wrapper around [Apache Commons Email](http://commons.apache.org/proper/commons-email/) and offers several features to send emails from R such as:
-- using authentication-based SMTP servers
-- sending emails to multiple recipients (including the use of Cc, Bcc, and ReplyTo recipients)
-- attaching multiple files from the file system or from URLs
-- sending HTML formatted emails with inline images
+Es una empaquetamiento de [Apache Commons Email](http://commons.apache.org/proper/commons-email/) que ofrece varias funciones para enviar correos desde R.
+- Usa autentificación basada en servidores SMTP
+- Envia correos a mutiples fuentes (incluyendo CC, BCC, y ReplyTo)
+- Permite adjuntar multiples archivos desde una carpeta o desde URLs
+- Permite enviar correos HTML con imagenes en linea
 
 Instrucciones de Instalación
 =========================
 Puedes instalar el paquete Rmail usando devtools:
 
 ```R
-devtools::install_github("rhoboot/Rmail")
+devtools::install_github("Rhoboot/Rmail")
 library(Rmail)
 ```
